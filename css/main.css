@@ -1,0 +1,62 @@
+html {
+    font-size: 16px;
+    font-family: 'Average Sans', sans-serif;  
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    height: 5rem;
+    z-index: 5;
+}
+
+nav{
+    
+
+    background-size: cover;
+    background-image: url("../resources/images/woodgrain_red.jpg");
+    color: #FFF;    
+}
+nav ul{
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem 3rem;
+}
+nav li{
+    color: #FFF;
+}
+
+
+.logo img {
+  height: 4rem;
+ 
+}
+#main-container, nav {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container  {
+    display: flex;
+  }
+
+
+.address{
+    position: relative;
+    z-index: 1;
+}
+
+#banner {
+    background-image: url("../resources/images/TD-4601.jpg");
+    background-size: cover;
+    background-position: bottom left;
+    height: 35rem;
+
+
+}
