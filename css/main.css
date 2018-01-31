@@ -2,10 +2,31 @@ html {
     font-size: 16px;
     font-family: 'Average Sans', sans-serif;  
 }
-h2 {
-    font-size: 1.5rem;
+h1{
+    font-size: 2.5rem;
+    color: #4D0307;
+    font-weight: 700;
+    padding: 1rem 0;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    color: #4D0307;
+    font-weight: 700;
+    padding-top: 1rem;
+   
+}
+
+.three-fifths {
+    flex-basis: 3;
+}
+.two-fifths {
+    flex-basis: 2;
+}
 header{
     width: 100%;
     position: fixed;
@@ -26,7 +47,7 @@ nav ul{
     align-items: baseline;
     flex-direction: row;
     width: 100%;
-    padding: 1rem 3rem;
+    padding: .75rem 3rem;
 }
 nav li{
     color: #FFF;
@@ -34,17 +55,22 @@ nav li{
 
 
 .logo img {
-  height: 4rem;
+  height: 4.5rem;
  
 }
 #main-container, nav {
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
 .flex-container  {
     display: flex;
   }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
 
 
 .address{
@@ -59,4 +85,18 @@ nav li{
     height: 35rem;
 
 
+}
+/*----- Menu Section -----*/
+#menus img{
+    /* max-height: 100%; */
+    max-width: 100%;
+}
+
+.menu-items .narrow-column{
+    padding: 1rem;
+}
+
+/*----- Contact Section -----*/
+.contact-items .wide-column{
+    padding: 1rem;
 }
