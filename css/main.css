@@ -145,8 +145,12 @@ footer {
 }
 
 footer a {
-    color: #FFF;     
+    color: #FFF; 
+    transition: all 250ms linear;    
 }
+footer a:hover {
+    color: #000;
+  }
 
 .footer-desktop li {
     padding-left: 1rem;
