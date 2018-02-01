@@ -61,7 +61,7 @@ nav li{
 
 .wrapper {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 3fr 2fr;
 }
 
 
@@ -112,4 +112,28 @@ input, textarea{
     display: grid;
     grid-template-columns: 20% 10% 70%;
     grid-row-gap: 1rem;
+}
+
+#story img {
+    max-width: 100%;
+}
+
+/*---- Footer Section -----*/
+footer {
+    background-size: cover;
+    background-image: url("../resources/images/woodgrain_red.jpg");
+    color: #FFF; 
+    height: 5rem; 
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer a {
+    color: #FFF;     
+}
+
+.footer-desktop li {
+    padding-left: 1rem;
+    
 }
