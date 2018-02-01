@@ -1,8 +1,11 @@
+
+
 html {
     font-size: 16px;
     font-family: 'Average Sans', sans-serif;  
 }
 h1{
+    font-family: 'nexa_rust_sansblack','Average Sans',sans-serif;
     font-size: 2.5rem;
     color: #4D0307;
     font-weight: 700;
@@ -10,7 +13,9 @@ h1{
 }
 
 h2 {
+    font-family: 'nexa_rust_sansblack','Average Sans',sans-serif;
     font-size: 2rem;
+    font-weight: lighter;
 }
 
 h3{
@@ -43,7 +48,13 @@ nav ul{
 }
 nav li{
     color: #FFF;
+    transition: all 250ms linear;
 }
+
+nav li:hover {
+    color: #000;
+  }
+  
 
 
 .logo img {
@@ -66,8 +77,9 @@ nav li{
 
 
 .address{
-    position: relative;
-    z-index: 1;
+    color:#fff;
+    padding-top: 3rem;
+    padding-right: 3rem;
 }
 
 #banner {
@@ -75,6 +87,8 @@ nav li{
     background-size: cover;
     background-position: bottom left;
     height: 35rem;
+    align-items: center;
+    justify-content: flex-end;
 
 
 }
@@ -136,5 +150,8 @@ footer a {
 
 .footer-desktop li {
     padding-left: 1rem;
-    
+
+}
+.giftcert div {
+    display: inline-block;
 }
