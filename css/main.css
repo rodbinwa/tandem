@@ -21,12 +21,6 @@ h3{
    
 }
 
-.three-fifths {
-    flex-basis: 3;
-}
-.two-fifths {
-    flex-basis: 2;
-}
 header{
     width: 100%;
     position: fixed;
@@ -36,8 +30,6 @@ header{
 }
 
 nav{
-    
-
     background-size: cover;
     background-image: url("../resources/images/woodgrain_red.jpg");
     color: #FFF;    
@@ -99,4 +91,25 @@ nav li{
 /*----- Contact Section -----*/
 .contact-items .wide-column{
     padding: 1rem;
+}
+input, textarea{
+    background-color: lightgray;
+    margin-top: .5rem;
+}
+
+/*----- Horizontal Image Break -----*/
+#horizontal-break img{
+    max-width: 100%;
+}
+
+
+/*----- Events Section -----*/
+#events img{
+    max-width: 100%;
+}
+
+.music-wrapper {
+    display: grid;
+    grid-template-columns: 20% 10% 70%;
+    grid-row-gap: 1rem;
 }
