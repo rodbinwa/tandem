@@ -1,0 +1,208 @@
+html{
+    font-size: 16px;
+    font-family: 'Average Sans', sans-serif;  
+}
+h1{
+    font-family: 'Holtwood One SC','Average Sans',sans-serif;
+    font-size: 2rem;
+    color: #4D0307;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+h3{
+    font-size: 1.25rem;
+    color: #4D0307;
+    font-weight: 900;
+    padding: .5rem 0 .5rem 0;   
+}
+
+.desktop {
+    display: none;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-image: url("../resources/images/woodgrain_red.jpg");
+    background-size: cover;
+    width: 100%;
+  
+}
+
+.navigation ul{
+    padding: .5rem .5rem;
+    /* height: 50px; */
+}
+
+.navigation a{
+    font-size: 1.25rem;
+    font-family: 'Holtwood One SC','Average Sans',sans-serif;
+    color: #fff;
+
+}
+.navigation li {
+    padding-bottom: .5rem;
+}
+
+.mobile-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.desktop-nav{
+    display: none;
+    
+}
+
+.desktop-nav.display-nav{
+    display: block;
+    height: 100px;
+}
+
+
+#banner{
+    background-image: url("../resources/images/TD-4601.jpg");
+    background-size: cover;
+    background-position: bottom left;
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 35%;
+}
+
+#banner .address{
+    padding-top: 55px;
+    padding-right: .5rem;
+    align-self: center;
+}
+
+.address a, .address p{
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* -----Menu Section ----- */
+.food-image img, .events-image{
+    max-width: 100%
+}
+
+.food-menu, .wine-menu, .contact-text, .events-text, .story-text{
+    padding: 1rem .5rem;
+}
+
+.signature{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.signature a{
+    color: #4D0307;
+}
+/*---- Footer Section -----*/
+footer {
+    display: flex;
+    background-size: cover;
+    background-image: url("../resources/images/woodgrain_red.jpg");
+    color: #FFF; 
+    height: 3rem;
+    flex-direction: column-reverse; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: smaller;
+}
+
+footer a {
+    color: #FFF; 
+    transition: all 250ms linear;    
+}
+footer a:hover {
+    color: #000;
+  }
+
+.footer-desktop{
+    display: flex;
+}
+
+.footer-desktop li {
+    padding-left: 1rem;
+
+}
+.giftcert div {
+    display: inline-block;
+}
+
+@media(min-width:700px){
+    .content-wrap{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .desktop{
+        display: inherit;
+    }
+    .navigation{
+        height: auto;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .desktop-nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .navigation li {
+        padding-bottom: 0;
+    }
+    #banner{
+        height: 500px;
+    }
+    .logo img{
+        height: auto;
+    }
+    #horizontal-break img{
+        max-width: 100%;
+    }
+    #story img{
+        max-width: 100%;
+    }
+    footer {
+        height: 5rem;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 1rem;
+        flex-direction: row;
+    }
+    .social-mobile {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+.music-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-row-gap: 0.3rem;
+}
+
