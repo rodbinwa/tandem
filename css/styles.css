@@ -113,6 +113,9 @@ h3{
 .signature a{
     color: #4D0307;
 }
+.map{
+   height: 300px;
+}
 /*---- Footer Section -----*/
 footer {
     display: flex;
