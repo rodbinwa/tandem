@@ -39,7 +39,6 @@ h3{
 
 .navigation ul{
     padding: .5rem .5rem;
-    /* height: 50px; */
 }
 
 .navigation a{
@@ -64,11 +63,12 @@ h3{
     
 }
 
-.desktop-nav.display-nav{
+.display-nav{
     display: block;
-    height: 100px;
-}
+    /* height: 130px; */
+    width: 100%;
 
+}
 
 #banner{
     background-image: url("../resources/images/TD-4601.jpg");
@@ -80,7 +80,9 @@ h3{
 }
 
 .logo img{
-    height: 35%;
+    height: 15%;
+    padding-top: 2rem;
+    padding-left: 1rem;
 }
 
 #banner .address{
@@ -164,7 +166,7 @@ footer a:hover {
     .mobile-nav{
         display: none;
     }
-    .desktop-nav{
+    #my-desktop-nav{
         display:flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -177,7 +179,9 @@ footer a:hover {
         height: 500px;
     }
     .logo img{
-        height: auto;
+        height: 12%;
+        padding-top: 2rem;
+        padding-left: 1rem;
     }
     #horizontal-break img{
         max-width: 100%;

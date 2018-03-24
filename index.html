@@ -16,8 +16,8 @@
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
 
-     <!-- JavaScript files -->
-    <script src="javascript/main.js"></script> 
+
+    
 
 </head>
 <body>
@@ -26,7 +26,7 @@
         <section id="main-navigation" >
                 <nav class="navigation">
                         <!-- Desktop Navigation -->
-                        <ul id="my-desktop-nav" class="desktop-nav" ><!-- will have display-nav class here -->
+                        <ul id="my-desktop-nav" class="desktop" ><!-- will have display-nav class here -->
                                 <li><a href="#">HOME</a></li>
                                 <li><a href="#menus">MENUS</a></li>
                                 <li><a href="#events">EVENTS</a></li>
@@ -36,23 +36,15 @@
 
                     <!-- Mobile Navigation -->
                         <ul class="mobile-nav  ">
-                            <!-- <li class="nav-home"><a href="#">HOME</a></li> -->
-                            <li class="nav-hamburger"><a href="javascript:void(0);" onclick="myFunction()"><i class="fas fa-bars fa-lg"></i></a></li>
+                            <li ><a id="nav-hamburger" href="#" ><i class="fas fa-bars fa-lg"></i></a></li>
                         </ul>
-                        <!-- Desktop Navigation -->
-                        <!-- <ul class="desktop-nav   ">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#menus">MENUS</a></li>
-                            <li><a href="#events">EVENTS</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                            <li><a href="#story">OUR STORY</a></li>
-                        </ul> -->
+
                 </nav>
         </section> <!-- navigation end -->
 
         <section id="banner">
                 <div class="logo">
-                    <img src="resources/images/logo_FPO.png" alt="Tandem Dinner and Wine Bar logo">
+                    <img src="resources/images/TandemLogo.png" alt="Tandem Dinner and Wine Bar logo">
                 </div>
                 <div class="address">
                     <p class="desktop">15029 Redmond-Woodenville Rd NE,</p>
@@ -205,7 +197,7 @@
                     the belief that anyone can achieve their dreams.</p>
             </div>
             <div class="desktop">
-                <img src="resources/images/tandem.png" alt="">
+                <img src="resources/images/TandemRide.jpg" alt="">
             </div>
         </section>
         <!-- story end -->
@@ -271,5 +263,13 @@
               </footer> <!-- Footer End -->
 
     </section> <!-- wrapper ends -->
+
+         <!-- JavaScript files -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="javascript/main.js"></script> 
 </body>
 </html>
