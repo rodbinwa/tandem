@@ -186,6 +186,13 @@ footer a:hover {
     #banner{
         height: 500px;
     }
+
+    #banner .address{
+        padding-top: 80px ;
+        padding-right: 1rem;
+        
+    }
+
     .logo img{
         
         width: 150%;
@@ -222,3 +229,6 @@ footer a:hover {
     grid-row-gap: 0.3rem;
 }
 
+.giftcert{
+    display: none;
+}
