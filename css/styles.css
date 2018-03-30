@@ -75,23 +75,28 @@ h3{
     background-size: cover;
     background-position: bottom left;
     display: flex;
+    flex-direction: column;
     height: 250px;
-    justify-content: space-between;
+    align-items: flex-end
 }
 .logo{
-    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
+
 .logo img{
-    height: 15%;
-    width: auto;
+ 
+    width: 50%;
+    height: 50%;
     padding-top: 2rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    
 }
 
 #banner .address{
     padding-top: 55px;
     padding-right: .5rem;
-    align-self: center;
+    
 }
 
 .address a, .address p{
@@ -182,7 +187,8 @@ footer a:hover {
         height: 500px;
     }
     .logo img{
-        height: 12%;
+        
+        width: 150%;
         padding-top: 2rem;
         padding-left: 1rem;
     }
